@@ -10,9 +10,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1> Falinschi Serghei CR-193 </h1>
       </header>
+       <h1 align="left">Five fields</h1>
         <FormFiveField></FormFiveField>
+        <h1 align="left">Seven fields (5+2)</h1>    
         <FormSevenField></FormSevenField>
-    </div>
+        </div>
   );
 }
 
@@ -40,9 +42,9 @@ function FormFiveField() {
             <FullWidthTextField></FullWidthTextField>
             <FullWidthTextField></FullWidthTextField>
             <FullWidthTextField></FullWidthTextField>
-            <h1>End first 5 fields</h1>
+            
         </form>
-    );
+        );
 }
 
 function FormSevenField() {
@@ -51,7 +53,7 @@ function FormSevenField() {
             <FormFiveField></FormFiveField>
             <FullWidthTextField></FullWidthTextField>
             <FullWidthTextField></FullWidthTextField>
-            <h1>End first 7 fields</h1>
+            
         </form>
     );
 }
