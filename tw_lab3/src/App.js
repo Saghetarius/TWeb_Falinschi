@@ -89,7 +89,7 @@ function App() {
             </Card>
                 </Col>
               </Row>
-            </div>,
+            </div>
             <Form
       name="basic"
       labelCol={{
@@ -111,7 +111,7 @@ function App() {
         rules={[
           {
             required: true,
-            message: 'Please input your name!',
+            message: 'Please enter your name!',
           },
         ]}
       >
@@ -124,7 +124,7 @@ function App() {
         rules={[
           {
             required: true,
-            message: 'Please input your password!',
+            message: 'Please enter your password!',
           },
         ]}
       >
@@ -137,7 +137,7 @@ function App() {
         rules={[
           {
             required: true,
-            message: 'Please input your location!',
+            message: 'Please enter your location!',
           },
         ]}
       >
